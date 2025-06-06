@@ -84,9 +84,9 @@ public class Treeorder
 {
 	public static void main(String[] args) {
 	tree t=new tree();
-	t.insert(1);
 	t.insert(3);
 	t.insert(5);
+	t.insert(1);
 	t.inorder(t.root);
 	t.preorder(t.root);
 	t.postorder(t.root);
